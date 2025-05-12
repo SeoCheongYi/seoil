@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        ul{
+            display: flex;
+        }
+        .inb{
+            display: inline-block;
+            margin: 10px;
+        }
+        li{
+            list-style-type :none;
+        }
+        .i{
+            display: inline;
+        }
+        .b{
+            display: block;
+        }
+        .sp{
+            justify-content: space-between;
+            display: flex;
+            
+        }
+        .rp{
+            padding-right: 40px;
+        }
+        .va a{
+            display: flex;
+            justify-content: top;
+        }
+        header{
+
+        }
+        div{
+
+        }
+        nav{
+
+        }
+        a{
+            text-decoration: none;
+            border:  2px solid black;
+            border-radius: 100%;
+            padding-left: 4px;
+            /* padding-top: 3px; */
+            padding-bottom: 8px;
+            padding-right: 8px;
+            padding: auto;
+            color: black;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            
+        }
+        a:visited{
+            color: black;
+        }
+        a:active{
+            color: black;
+        }
+        span{
+            display: flex;
+        }
+        .icon-with-label{
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin-left: 40px;
+            text-align: center;
+        }
+        .icon-with-label i{
+                font-size: 30px;
+                
+        }
+        .rhicon i{
+                font-size: 36px;
+                margin: 10px;
+        }
+        .mail{
+           justify-content: center;
+           
+        }
+        
+    </style>
+    <!-- 시멘틱 태그 -->
+    <header>
+        <div class="sp">
+            <ul class="inb">
+            <li class="inb"><img src="/images/free-icon-hamburger-161588.png" width="60px"></li>
+            <!-- bar,pay,네이버톡, 알림, 장바구니 -->
+            <li class="inb va"><a href="a">pay</a></li>
+            <li class="inb"></li>
+            </ul>
+          
+            <ul class="i rp">
+                
+                <li class="i rhicon"><i class="fa-solid fa-comment"></i></li>
+                <li class="i rhicon"><i class="fa-solid fa-bell"></i></li>
+                <li class="i rhicon"><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                검색
+
+            </ul>
+            <!-- 검색 -->
+            
+        </div>
+    </header>
+    <nav>
+        <ul class="mail">
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+            <li class = "icon-with-label">
+                <i class="fa-solid fa-bars"></i><span>메일</span>
+            </li>
+        </ul>
+    
+        <!-- 리스트 처리 uk,li 태그를 이용, 리스트 처리해볼것
+            메일, 카페, 블로그.... -->
+    </nav>
+</body>
+</html>
